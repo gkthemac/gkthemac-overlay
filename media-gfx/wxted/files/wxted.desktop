@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=wxTED
+Comment=Teletext Editor
+Exec=wxTED %F
+Icon=text-editor
+Terminal=false
+Type=Application
+Categories=Graphics;Publishing;
