@@ -41,6 +41,7 @@ src_compile() {
 		teletext40.cpp \
 		ttxline.cpp \
 		ttxpage.cpp \
+		ttxpageset.cpp \
 		ttxrow28.cpp \
 		wxTEDApp.cpp \
 		wxTEDMain.cpp \

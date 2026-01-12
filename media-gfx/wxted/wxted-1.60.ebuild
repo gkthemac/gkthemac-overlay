@@ -24,12 +24,8 @@ DEPEND="
 	x11-libs/wxGTK[X]
 "
 RDEPEND="${DEPEND}
-        media-fonts/teletext-ttf
+	media-fonts/teletext-ttf
 "
-
-PATCHES=(
-	"${FILESDIR}"/wxted-1.58-memory.patch
-)
 
 src_compile() {
 	$(tc-getCXX) ${CPPFLAGS} ${LDFLAGS} -o wxTED \
@@ -45,6 +41,7 @@ src_compile() {
 		teletext40.cpp \
 		ttxline.cpp \
 		ttxpage.cpp \
+		ttxpageset.cpp \
 		ttxrow28.cpp \
 		wxTEDApp.cpp \
 		wxTEDMain.cpp \
